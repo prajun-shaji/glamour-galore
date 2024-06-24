@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-list {
+    @apply hover:text-gray-500 duration-500 text-sm;
+  }
+}
